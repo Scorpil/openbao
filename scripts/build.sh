@@ -44,7 +44,7 @@ echo "==> Building..."
 ${GO_CMD} build \
     -gcflags "${GCFLAGS}" \
     -ldflags "${LD_FLAGS} -X github.com/lf-edge/openbao/version.GitCommit='${GIT_COMMIT}${GIT_DIRTY}' -X github.com/lf-edge/openbao/version.BuildDate=${BUILD_DATE}" \
-    -o "bin/bao" \
+    -o "bin/vault" \
     -tags "${BUILD_TAGS}" \
     .
 
