@@ -17,10 +17,10 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-secure-stdlib/parseutil"
-	vaulthttp "github.com/hashicorp/vault/http"
-	"github.com/hashicorp/vault/sdk/helper/testhelpers/schema"
-	"github.com/hashicorp/vault/sdk/logical"
-	"github.com/hashicorp/vault/vault"
+	vaulthttp "github.com/lf-edge/openbao/http"
+	"github.com/lf-edge/openbao/sdk/helper/testhelpers/schema"
+	"github.com/lf-edge/openbao/sdk/logical"
+	"github.com/lf-edge/openbao/vault"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/ocsp"
 )
