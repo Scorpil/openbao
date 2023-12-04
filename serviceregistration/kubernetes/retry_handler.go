@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	sr "github.com/lf-edge/openbao/serviceregistration"
-	"github.com/lf-edge/openbao/serviceregistration/kubernetes/client"
 	"github.com/oklog/run"
+	sr "github.com/openbao/openbao/serviceregistration"
+	"github.com/openbao/openbao/serviceregistration/kubernetes/client"
 )
 
 // How often to retry sending a state update if it fails.

@@ -8,10 +8,10 @@ import (
 	realtesting "testing"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/lf-edge/openbao/helper/testhelpers/consul"
-	physConsul "github.com/lf-edge/openbao/physical/consul"
-	"github.com/lf-edge/openbao/vault"
 	"github.com/mitchellh/go-testing-interface"
+	"github.com/openbao/openbao/helper/testhelpers/consul"
+	physConsul "github.com/openbao/openbao/physical/consul"
+	"github.com/openbao/openbao/vault"
 )
 
 func MakeConsulBackend(t testing.T, logger hclog.Logger) *vault.PhysicalBackendBundle {

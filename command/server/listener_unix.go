@@ -8,9 +8,9 @@ import (
 	"net"
 
 	"github.com/hashicorp/go-secure-stdlib/reloadutil"
-	"github.com/lf-edge/openbao/internalshared/configutil"
-	"github.com/lf-edge/openbao/internalshared/listenerutil"
 	"github.com/mitchellh/cli"
+	"github.com/openbao/openbao/internalshared/configutil"
+	"github.com/openbao/openbao/internalshared/listenerutil"
 )
 
 func unixListenerFactory(l *configutil.Listener, _ io.Writer, ui cli.Ui) (net.Listener, map[string]string, reloadutil.ReloadFunc, error) {

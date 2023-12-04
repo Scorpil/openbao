@@ -19,11 +19,11 @@ import (
 
 	"github.com/go-test/deep"
 	"github.com/hashicorp/go-cleanhttp"
-	"github.com/lf-edge/openbao/helper/namespace"
-	"github.com/lf-edge/openbao/helper/versions"
-	"github.com/lf-edge/openbao/sdk/helper/consts"
-	"github.com/lf-edge/openbao/sdk/logical"
-	"github.com/lf-edge/openbao/vault"
+	"github.com/openbao/openbao/helper/namespace"
+	"github.com/openbao/openbao/helper/versions"
+	"github.com/openbao/openbao/sdk/helper/consts"
+	"github.com/openbao/openbao/sdk/logical"
+	"github.com/openbao/openbao/vault"
 )
 
 func TestHandler_parseMFAHandler(t *testing.T) {
@@ -334,7 +334,7 @@ func TestHandler_InFlightRequest(t *testing.T) {
 
 // TestHandler_MissingToken tests the response / error code if a request comes
 // in with a missing client token. See
-// https://github.com/lf-edge/openbao/issues/8377
+// https://github.com/openbao/openbao/issues/8377
 func TestHandler_MissingToken(t *testing.T) {
 	// core, _, token := vault.TestCoreUnsealed(t)
 	core, _, _ := vault.TestCoreUnsealed(t)

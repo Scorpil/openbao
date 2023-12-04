@@ -13,10 +13,10 @@ import (
 	"time"
 
 	nomadapi "github.com/hashicorp/nomad/api"
-	"github.com/lf-edge/openbao/helper/testhelpers"
-	"github.com/lf-edge/openbao/sdk/helper/docker"
-	"github.com/lf-edge/openbao/sdk/logical"
+	"github.com/openbao/openbao/helper/testhelpers"
 	"github.com/mitchellh/mapstructure"
+	"github.com/openbao/openbao/sdk/helper/docker"
+	"github.com/openbao/openbao/sdk/logical"
 )
 
 type Config struct {

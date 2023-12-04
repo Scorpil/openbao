@@ -13,10 +13,10 @@ import (
 	"github.com/armon/go-radix"
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/go-secure-stdlib/strutil"
-	"github.com/lf-edge/openbao/helper/identity"
-	"github.com/lf-edge/openbao/helper/namespace"
-	"github.com/lf-edge/openbao/sdk/logical"
+	"github.com/openbao/openbao/helper/identity"
+	"github.com/openbao/openbao/helper/namespace"
 	"github.com/mitchellh/copystructure"
+	"github.com/openbao/openbao/sdk/logical"
 )
 
 // ACL is used to wrap a set of policies to provide

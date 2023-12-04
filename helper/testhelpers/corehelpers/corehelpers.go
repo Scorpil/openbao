@@ -16,14 +16,14 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/lf-edge/openbao/audit"
-	"github.com/lf-edge/openbao/builtin/credential/approle"
-	"github.com/lf-edge/openbao/plugins/database/mysql"
-	"github.com/lf-edge/openbao/sdk/framework"
-	"github.com/lf-edge/openbao/sdk/helper/consts"
-	"github.com/lf-edge/openbao/sdk/helper/salt"
-	"github.com/lf-edge/openbao/sdk/logical"
+	"github.com/openbao/openbao/audit"
+	"github.com/openbao/openbao/builtin/credential/approle"
+	"github.com/openbao/openbao/plugins/database/mysql"
 	"github.com/mitchellh/go-testing-interface"
+	"github.com/openbao/openbao/sdk/framework"
+	"github.com/openbao/openbao/sdk/helper/consts"
+	"github.com/openbao/openbao/sdk/helper/salt"
+	"github.com/openbao/openbao/sdk/logical"
 )
 
 var externalPlugins = []string{"transform", "kmip", "keymgmt"}

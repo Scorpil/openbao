@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	logicalKv "github.com/hashicorp/vault-plugin-secrets-kv"
-	"github.com/lf-edge/openbao/helper/namespace"
-	"github.com/lf-edge/openbao/sdk/logical"
+	"github.com/openbao/openbao/helper/namespace"
+	logicalKv "github.com/openbao/openbao-plugin-secrets-kv"
+	"github.com/openbao/openbao/sdk/logical"
 )
 
 func TestCoreMetrics_KvSecretGauge(t *testing.T) {

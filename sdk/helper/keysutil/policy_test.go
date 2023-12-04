@@ -23,10 +23,10 @@ import (
 
 	"golang.org/x/crypto/ed25519"
 
-	"github.com/lf-edge/openbao/sdk/helper/errutil"
-	"github.com/lf-edge/openbao/sdk/helper/jsonutil"
-	"github.com/lf-edge/openbao/sdk/logical"
 	"github.com/mitchellh/copystructure"
+	"github.com/openbao/openbao/sdk/helper/errutil"
+	"github.com/openbao/openbao/sdk/helper/jsonutil"
+	"github.com/openbao/openbao/sdk/logical"
 )
 
 func TestPolicy_KeyEntryMapUpgrade(t *testing.T) {

@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lf-edge/openbao/api"
-	"github.com/lf-edge/openbao/helper/testhelpers/corehelpers"
 	"github.com/mitchellh/cli"
+	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/helper/testhelpers/corehelpers"
 )
 
 func testPluginReloadCommand(tb testing.TB) (*cli.MockUi, *PluginReloadCommand) {

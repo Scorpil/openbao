@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lf-edge/openbao/api"
 	"github.com/mitchellh/cli"
+	"github.com/openbao/openbao/api"
 )
 
 func testUnwrapCommand(tb testing.TB) (*cli.MockUi, *UnwrapCommand) {

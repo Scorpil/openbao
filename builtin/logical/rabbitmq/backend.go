@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
-	"github.com/lf-edge/openbao/sdk/framework"
-	"github.com/lf-edge/openbao/sdk/logical"
 	rabbithole "github.com/michaelklishin/rabbit-hole/v2"
+	"github.com/openbao/openbao/sdk/framework"
+	"github.com/openbao/openbao/sdk/logical"
 )
 
 const operationPrefixRabbitMQ = "rabbit-mq"

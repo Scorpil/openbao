@@ -13,12 +13,12 @@ import (
 	"github.com/hashicorp/go-secure-stdlib/parseutil"
 	"github.com/hashicorp/hcl"
 	"github.com/hashicorp/hcl/hcl/ast"
-	"github.com/lf-edge/openbao/helper/identity"
-	"github.com/lf-edge/openbao/helper/namespace"
-	"github.com/lf-edge/openbao/sdk/helper/hclutil"
-	"github.com/lf-edge/openbao/sdk/helper/identitytpl"
-	"github.com/lf-edge/openbao/sdk/logical"
+	"github.com/openbao/openbao/helper/identity"
+	"github.com/openbao/openbao/helper/namespace"
 	"github.com/mitchellh/copystructure"
+	"github.com/openbao/openbao/sdk/helper/hclutil"
+	"github.com/openbao/openbao/sdk/helper/identitytpl"
+	"github.com/openbao/openbao/sdk/logical"
 )
 
 const (

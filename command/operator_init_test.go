@@ -13,10 +13,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lf-edge/openbao/api"
-	"github.com/lf-edge/openbao/helper/pgpkeys"
-	"github.com/lf-edge/openbao/vault"
 	"github.com/mitchellh/cli"
+	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/helper/pgpkeys"
+	"github.com/openbao/openbao/vault"
 )
 
 func testOperatorInitCommand(tb testing.TB) (*cli.MockUi, *OperatorInitCommand) {

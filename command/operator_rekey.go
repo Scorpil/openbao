@@ -12,9 +12,9 @@ import (
 
 	"github.com/fatih/structs"
 	"github.com/hashicorp/go-secure-stdlib/password"
-	"github.com/lf-edge/openbao/api"
-	"github.com/lf-edge/openbao/helper/pgpkeys"
 	"github.com/mitchellh/cli"
+	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/helper/pgpkeys"
 	"github.com/posener/complete"
 )
 

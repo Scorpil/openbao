@@ -1,4 +1,4 @@
-module github.com/lf-edge/openbao
+module github.com/openbao/openbao
 
 // The go version directive value isn't consulted when building our production binaries,
 // and the vault module isn't intended to be imported into other projects.  As such the
@@ -12,15 +12,21 @@ module github.com/lf-edge/openbao
 // Whenever this value gets updated, sdk/go.mod should be updated to the same value.
 go 1.20
 
-replace github.com/lf-edge/openbao/api => ./api
+replace github.com/openbao/openbao/api => ./api
 
-replace github.com/lf-edge/openbao/api/auth/approle => ./api/auth/approle
+replace github.com/openbao/openbao/api/auth/approle => ./api/auth/approle
 
-replace github.com/lf-edge/openbao/api/auth/kubernetes => ./api/auth/kubernetes
+replace github.com/openbao/openbao/api/auth/kubernetes => ./api/auth/kubernetes
 
-replace github.com/lf-edge/openbao/api/auth/userpass => ./api/auth/userpass
+replace github.com/openbao/openbao/api/auth/userpass => ./api/auth/userpass
 
-replace github.com/lf-edge/openbao/sdk => ./sdk
+replace github.com/openbao/openbao/sdk => ./sdk
+
+replace github.com/openbao/openbao/vault/hcp_link/proto => ./vault/hcp_link/proto
+
+replace github.com/openbao/openbao-plugin-secrets-kv => ../openbao-plugin-secrets-kv
+
+replace github.com/hashicorp/vault/sdk/logical => ./sdk/logical
 
 require (
 	cloud.google.com/go/monitoring v1.15.1
@@ -144,16 +150,10 @@ require (
 	github.com/hashicorp/vault-plugin-secrets-gcp v0.16.0
 	github.com/hashicorp/vault-plugin-secrets-gcpkms v0.15.0
 	github.com/hashicorp/vault-plugin-secrets-kubernetes v0.5.0
-	github.com/hashicorp/vault-plugin-secrets-kv v0.15.0
 	github.com/hashicorp/vault-plugin-secrets-mongodbatlas v0.10.2
 	github.com/hashicorp/vault-plugin-secrets-openldap v0.11.1
 	github.com/hashicorp/vault-plugin-secrets-terraform v0.7.1
 	github.com/hashicorp/vault-testing-stepwise v0.1.3
-	github.com/lf-edge/openbao/api v1.9.2
-	github.com/lf-edge/openbao/api/auth/approle v0.1.0
-	github.com/lf-edge/openbao/api/auth/userpass v0.1.0
-	github.com/lf-edge/openbao/sdk v0.9.2
-	github.com/lf-edge/openbao/vault/hcp_link/proto v0.0.0-20230201201504-b741fa893d77
 	github.com/influxdata/influxdb1-client v0.0.0-20200827194710-b269163b24ab
 	github.com/jackc/pgx/v4 v4.18.1
 	github.com/jcmturner/gokrb5/v8 v8.4.4
@@ -179,6 +179,12 @@ require (
 	github.com/ncw/swift v1.0.47
 	github.com/oklog/run v1.1.0
 	github.com/okta/okta-sdk-golang/v2 v2.12.1
+	github.com/openbao/openbao-plugin-secrets-kv v0.15.0
+	github.com/openbao/openbao/api v1.9.2
+	github.com/openbao/openbao/api/auth/approle v0.1.0
+	github.com/openbao/openbao/api/auth/userpass v0.1.0
+	github.com/openbao/openbao/sdk v0.9.2
+	github.com/openbao/openbao/vault/hcp_link/proto v0.0.0-20230201201504-b741fa893d77
 	github.com/oracle/oci-go-sdk v24.3.0+incompatible
 	github.com/ory/dockertest v3.3.5+incompatible
 	github.com/ory/dockertest/v3 v3.10.0
@@ -383,7 +389,9 @@ require (
 	github.com/hashicorp/mdns v1.0.4 // indirect
 	github.com/hashicorp/net-rpc-msgpackrpc/v2 v2.0.0 // indirect
 	github.com/hashicorp/serf v0.10.1 // indirect
-	github.com/lf-edge/openbao/api/auth/kubernetes v0.4.1 // indirect
+	github.com/hashicorp/vault/api v1.9.2 // indirect
+	github.com/hashicorp/vault/api/auth/kubernetes v0.4.1 // indirect
+	github.com/hashicorp/vault/sdk v0.9.2 // indirect
 	github.com/hashicorp/vic v1.5.1-0.20190403131502-bbfe86ec9443 // indirect
 	github.com/hashicorp/yamux v0.1.1 // indirect
 	github.com/huandu/xstrings v1.4.0 // indirect

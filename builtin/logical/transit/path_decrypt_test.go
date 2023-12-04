@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lf-edge/openbao/sdk/helper/jsonutil"
-	"github.com/lf-edge/openbao/sdk/logical"
 	"github.com/mitchellh/mapstructure"
+	"github.com/openbao/openbao/sdk/helper/jsonutil"
+	"github.com/openbao/openbao/sdk/logical"
 )
 
 func TestTransit_BatchDecryption(t *testing.T) {

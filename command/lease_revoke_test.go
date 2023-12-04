@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/lf-edge/openbao/api"
 	"github.com/mitchellh/cli"
+	"github.com/openbao/openbao/api"
 )
 
 func testLeaseRevokeCommand(tb testing.TB) (*cli.MockUi, *LeaseRevokeCommand) {

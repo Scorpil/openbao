@@ -15,11 +15,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lf-edge/openbao/helper/random"
-	"github.com/lf-edge/openbao/sdk/database/dbplugin/v5"
-	"github.com/lf-edge/openbao/sdk/helper/certutil"
-	"github.com/lf-edge/openbao/sdk/helper/template"
+	"github.com/openbao/openbao/helper/random"
 	"github.com/mitchellh/mapstructure"
+	"github.com/openbao/openbao/sdk/database/dbplugin/v5"
+	"github.com/openbao/openbao/sdk/helper/certutil"
+	"github.com/openbao/openbao/sdk/helper/template"
 )
 
 // passwordGenerator generates password credentials.

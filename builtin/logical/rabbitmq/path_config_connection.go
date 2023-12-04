@@ -7,10 +7,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/lf-edge/openbao/sdk/framework"
-	"github.com/lf-edge/openbao/sdk/helper/template"
-	"github.com/lf-edge/openbao/sdk/logical"
 	rabbithole "github.com/michaelklishin/rabbit-hole/v2"
+	"github.com/openbao/openbao/sdk/framework"
+	"github.com/openbao/openbao/sdk/helper/template"
+	"github.com/openbao/openbao/sdk/logical"
 )
 
 const (

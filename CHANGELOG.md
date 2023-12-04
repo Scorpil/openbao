@@ -3704,7 +3704,7 @@ BUG FIXES:
 * secrets/database: Fix issue that prevents performance standbys from connecting to databases after a root credential rotation [[GH-9129](https://github.com/hashicorp/vault/pull/9129)]
 * secrets/database: Fix parsing of multi-line PostgreSQL statements [[GH-8512](https://github.com/hashicorp/vault/pull/8512)]
 * secrets/gcp: Fix issue were updates were not being applied to the `token_scopes` of a roleset. [[GH-90](https://github.com/hashicorp/vault-plugin-secrets-gcp/pull/90)]
-* secrets/kv: Return the value of delete_version_after when reading kv/config, even if it is set to the default. [[GH-42](https://github.com/hashicorp/vault-plugin-secrets-kv/pull/42)]
+* secrets/kv: Return the value of delete_version_after when reading kv/config, even if it is set to the default. [[GH-42](https://github.com/openbao/openbao-plugin-secrets-kv/pull/42)]
 * ui: Add Toggle component into core addon so it is available in KMIP and other Ember Engines.[[GH-8913]](https://github.com/hashicorp/vault/pull/8913)
 * ui: Disallow max versions value of large than 9999999999999999 on kv2 secrets engine. [[GH-9242](https://github.com/hashicorp/vault/pull/9242)]
 * ui: Add and upgrade missing dependencies to resolve a failure with `make static-dist`. [[GH-9277](https://github.com/hashicorp/vault/pull/9371)]
@@ -4801,7 +4801,7 @@ BUG FIXES:
  * auth/okta: Fix a potential dropped error [[GH-6592](https://github.com/hashicorp/vault/pull/6592)]
  * secrets/kv: Fix a regression on upgrade where a KVv2 mount could fail to be
    mounted on unseal if it had previously been mounted but not written to
-   [[GH-31](https://github.com/hashicorp/vault-plugin-secrets-kv/pull/31)]
+   [[GH-31](https://github.com/openbao/openbao-plugin-secrets-kv/pull/31)]
 
 ## 1.1.1 (April 11th, 2019)
 
@@ -5307,7 +5307,7 @@ BUG FIXES:
    [[GH-5809](https://github.com/hashicorp/vault/pull/5809)]
  * secrets/kv: Disallow empty paths on a `kv put` while accepting empty paths
    for all other operations for backwards compatibility
-   [[GH-19](https://github.com/hashicorp/vault-plugin-secrets-kv/pull/19)]
+   [[GH-19](https://github.com/openbao/openbao-plugin-secrets-kv/pull/19)]
  * ui: Allow for secret creation in kv v2 when cas_required=true [[GH-5823](https://github.com/hashicorp/vault/pull/5823)]
  * ui: Fix dr secondary operation token generation via the ui [[GH-5818](https://github.com/hashicorp/vault/pull/5818)]
  * ui: Fix the PKI context menu so that items load [[GH-5824](https://github.com/hashicorp/vault/pull/5824)]
