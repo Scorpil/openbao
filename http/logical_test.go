@@ -18,6 +18,8 @@ import (
 	"testing"
 	"time"
 
+	kv "github.com/openbao/openbao-plugin-secrets-kv"
+	"github.com/openbao/openbao/api"
 	auditFile "github.com/openbao/openbao/builtin/audit/file"
 	credUserpass "github.com/openbao/openbao/builtin/credential/userpass"
 	"github.com/openbao/openbao/helper/testhelpers/corehelpers"
@@ -27,8 +29,6 @@ import (
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/sdk/physical"
 	"github.com/openbao/openbao/sdk/physical/inmem"
-	kv "github.com/openbao/openbao-plugin-secrets-kv"
-	"github.com/openbao/openbao/api"
 
 	"github.com/go-test/deep"
 	log "github.com/hashicorp/go-hclog"

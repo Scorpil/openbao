@@ -34,10 +34,11 @@ import (
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	log "github.com/hashicorp/go-hclog"
-	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/api"
+	vaulthttp "github.com/openbao/openbao/http"
 
 	rootcerts "github.com/hashicorp/go-rootcerts"
+	"github.com/mitchellh/mapstructure"
 	"github.com/openbao/openbao/builtin/logical/pki"
 	logicaltest "github.com/openbao/openbao/helper/testhelpers/logical"
 	"github.com/openbao/openbao/sdk/framework"
@@ -45,7 +46,6 @@ import (
 	"github.com/openbao/openbao/sdk/helper/tokenutil"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/mitchellh/mapstructure"
 )
 
 const (

@@ -8,11 +8,11 @@ import (
 	"testing"
 
 	"github.com/kr/pretty"
+	"github.com/openbao/openbao/api"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/framework"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 func TestIdentityStore_EntityDisabled(t *testing.T) {

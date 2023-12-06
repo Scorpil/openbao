@@ -21,6 +21,7 @@ import (
 	"github.com/go-test/deep"
 	"github.com/hashicorp/go-hclog"
 	semver "github.com/hashicorp/go-version"
+	"github.com/mitchellh/mapstructure"
 	credUserpass "github.com/openbao/openbao/builtin/credential/userpass"
 	"github.com/openbao/openbao/helper/builtinplugins"
 	"github.com/openbao/openbao/helper/experiments"
@@ -29,8 +30,6 @@ import (
 	"github.com/openbao/openbao/helper/random"
 	"github.com/openbao/openbao/helper/testhelpers/corehelpers"
 	"github.com/openbao/openbao/helper/versions"
-	"github.com/openbao/openbao/version"
-	"github.com/mitchellh/mapstructure"
 	"github.com/openbao/openbao/sdk/framework"
 	"github.com/openbao/openbao/sdk/helper/compressutil"
 	"github.com/openbao/openbao/sdk/helper/consts"
@@ -39,6 +38,7 @@ import (
 	"github.com/openbao/openbao/sdk/helper/pluginutil"
 	"github.com/openbao/openbao/sdk/helper/testhelpers/schema"
 	"github.com/openbao/openbao/sdk/logical"
+	"github.com/openbao/openbao/version"
 )
 
 func TestSystemBackend_RootPaths(t *testing.T) {

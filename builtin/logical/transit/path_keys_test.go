@@ -11,13 +11,13 @@ import (
 	"time"
 
 	uuid "github.com/hashicorp/go-uuid"
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/audit"
 	"github.com/openbao/openbao/builtin/audit/file"
 	"github.com/openbao/openbao/builtin/logical/transit"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 func TestTransit_Issue_2958(t *testing.T) {

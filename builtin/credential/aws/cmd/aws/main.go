@@ -7,8 +7,8 @@ import (
 	"os"
 
 	hclog "github.com/hashicorp/go-hclog"
-	awsauth "github.com/openbao/openbao/builtin/credential/aws"
 	"github.com/openbao/openbao/api"
+	awsauth "github.com/openbao/openbao/builtin/credential/aws"
 	"github.com/openbao/openbao/sdk/plugin"
 )
 

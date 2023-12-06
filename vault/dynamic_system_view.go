@@ -11,12 +11,12 @@ import (
 	"github.com/openbao/openbao/helper/identity"
 	"github.com/openbao/openbao/helper/namespace"
 	"github.com/openbao/openbao/helper/random"
-	"github.com/openbao/openbao/version"
 	"github.com/openbao/openbao/sdk/helper/consts"
 	"github.com/openbao/openbao/sdk/helper/license"
 	"github.com/openbao/openbao/sdk/helper/pluginutil"
 	"github.com/openbao/openbao/sdk/helper/wrapping"
 	"github.com/openbao/openbao/sdk/logical"
+	"github.com/openbao/openbao/version"
 )
 
 type ctxKeyForwardedRequestMountAccessor struct{}

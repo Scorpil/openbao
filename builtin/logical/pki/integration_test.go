@@ -14,12 +14,12 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/openbao/openbao/api"
 	vaulthttp "github.com/openbao/openbao/http"
 	vaultocsp "github.com/openbao/openbao/sdk/helper/ocsp"
 	"github.com/openbao/openbao/sdk/helper/testhelpers/schema"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/stretchr/testify/require"

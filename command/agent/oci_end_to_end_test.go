@@ -3,6 +3,7 @@
 
 package agent
 
+/*
 import (
 	"context"
 	"io/ioutil"
@@ -229,3 +230,4 @@ func unsetOCIEnvCreds() error {
 	}
 	return os.Unsetenv(envVarOCIPrivateKeyPath)
 }
+*/

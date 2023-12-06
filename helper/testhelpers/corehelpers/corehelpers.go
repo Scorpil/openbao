@@ -16,10 +16,10 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-hclog"
+	"github.com/mitchellh/go-testing-interface"
 	"github.com/openbao/openbao/audit"
 	"github.com/openbao/openbao/builtin/credential/approle"
 	"github.com/openbao/openbao/plugins/database/mysql"
-	"github.com/mitchellh/go-testing-interface"
 	"github.com/openbao/openbao/sdk/framework"
 	"github.com/openbao/openbao/sdk/helper/consts"
 	"github.com/openbao/openbao/sdk/helper/salt"

@@ -12,6 +12,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/builtin/plugin"
 	"github.com/openbao/openbao/helper/namespace"
 	vaulthttp "github.com/openbao/openbao/http"
@@ -21,7 +22,6 @@ import (
 	lplugin "github.com/openbao/openbao/sdk/plugin"
 	"github.com/openbao/openbao/sdk/plugin/mock"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 const (

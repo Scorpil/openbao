@@ -7,8 +7,8 @@ import (
 	"os"
 
 	"github.com/hashicorp/go-hclog"
-	"github.com/openbao/openbao/builtin/logical/aws"
 	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/builtin/logical/aws"
 	"github.com/openbao/openbao/sdk/plugin"
 )
 

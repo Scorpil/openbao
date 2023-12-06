@@ -8,8 +8,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/openbao/openbao/helper/namespace"
 	"github.com/mitchellh/copystructure"
+	"github.com/openbao/openbao/helper/namespace"
 	"github.com/openbao/openbao/sdk/helper/salt"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/stretchr/testify/assert"

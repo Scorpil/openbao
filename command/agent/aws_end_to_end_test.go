@@ -16,6 +16,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/sts"
 	hclog "github.com/hashicorp/go-hclog"
 	uuid "github.com/hashicorp/go-uuid"
+	"github.com/openbao/openbao/api"
 	vaultaws "github.com/openbao/openbao/builtin/credential/aws"
 	"github.com/openbao/openbao/command/agentproxyshared/auth"
 	agentaws "github.com/openbao/openbao/command/agentproxyshared/auth/aws"
@@ -26,7 +27,6 @@ import (
 	"github.com/openbao/openbao/sdk/helper/logging"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 const (

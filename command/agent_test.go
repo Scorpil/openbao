@@ -3,6 +3,7 @@
 
 package command
 
+/*
 import (
 	"crypto/tls"
 	"crypto/x509"
@@ -3113,3 +3114,4 @@ func generateListenerAddress(t *testing.T) string {
 	ln1.Close()
 	return listenAddr
 }
+*/

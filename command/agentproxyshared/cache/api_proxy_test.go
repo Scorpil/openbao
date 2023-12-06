@@ -20,10 +20,10 @@ import (
 	"github.com/openbao/openbao/vault"
 
 	"github.com/hashicorp/go-hclog"
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/helper/namespace"
 	"github.com/openbao/openbao/sdk/helper/jsonutil"
 	"github.com/openbao/openbao/sdk/helper/logging"
-	"github.com/openbao/openbao/api"
 )
 
 const policyAdmin = `

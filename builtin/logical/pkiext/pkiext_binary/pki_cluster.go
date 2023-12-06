@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/openbao/openbao/builtin/logical/pki/dnstest"
 	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/builtin/logical/pki/dnstest"
 	dockhelper "github.com/openbao/openbao/sdk/helper/docker"
 	"github.com/openbao/openbao/sdk/helper/testcluster"
 	"github.com/openbao/openbao/sdk/helper/testcluster/docker"

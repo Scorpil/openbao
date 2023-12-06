@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
+	logicalKv "github.com/openbao/openbao-plugin-secrets-kv"
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/audit"
 	auditFile "github.com/openbao/openbao/builtin/audit/file"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	logicalKv "github.com/openbao/openbao-plugin-secrets-kv"
-	"github.com/openbao/openbao/api"
 )
 
 func TestKV_Patch_BadContentTypeHeader(t *testing.T) {

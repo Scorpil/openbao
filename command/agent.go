@@ -33,6 +33,7 @@ import (
 	"golang.org/x/text/language"
 	"google.golang.org/grpc/test/bufconn"
 
+	"github.com/openbao/openbao/api"
 	agentConfig "github.com/openbao/openbao/command/agent/config"
 	"github.com/openbao/openbao/command/agent/exec"
 	"github.com/openbao/openbao/command/agent/template"
@@ -48,10 +49,9 @@ import (
 	"github.com/openbao/openbao/helper/useragent"
 	"github.com/openbao/openbao/internalshared/configutil"
 	"github.com/openbao/openbao/internalshared/listenerutil"
-	"github.com/openbao/openbao/version"
-	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/sdk/helper/consts"
 	"github.com/openbao/openbao/sdk/logical"
+	"github.com/openbao/openbao/version"
 )
 
 var (

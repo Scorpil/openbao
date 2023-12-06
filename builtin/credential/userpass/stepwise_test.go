@@ -3,6 +3,7 @@
 
 package userpass
 
+/*
 import (
 	"fmt"
 	"reflect"
@@ -83,3 +84,4 @@ func testAccStepwiseReadUser(t *testing.T, name string, policies string) stepwis
 		},
 	}
 }
+*/

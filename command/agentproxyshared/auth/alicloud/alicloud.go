@@ -3,6 +3,7 @@
 
 package alicloud
 
+/*
 import (
 	"context"
 	"errors"
@@ -19,7 +20,7 @@ import (
 	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/command/agentproxyshared/auth"
 )
-
+*/
 /*
 Creds can be inferred from instance metadata, and those creds
 expire every 60 minutes, so we're going to need to poll for new
@@ -27,6 +28,7 @@ creds. Since we're polling anyways, let's poll once a minute so
 all changes can be picked up rather quickly. This is configurable,
 however.
 */
+/*
 const defaultCredCheckFreqSeconds = 60
 
 func NewAliCloudAuthMethod(conf *auth.AuthConfig) (auth.AuthMethod, error) {
@@ -235,3 +237,4 @@ func (a *alicloudMethod) checkCreds(credProvider providers.Provider) error {
 	a.credsFound <- struct{}{}
 	return nil
 }
+*/

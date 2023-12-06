@@ -28,9 +28,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/sts"
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
+	"github.com/mitchellh/mapstructure"
 	"github.com/openbao/openbao/helper/testhelpers"
 	logicaltest "github.com/openbao/openbao/helper/testhelpers/logical"
-	"github.com/mitchellh/mapstructure"
 	"github.com/openbao/openbao/sdk/logical"
 )
 

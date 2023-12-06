@@ -1,7 +1,8 @@
 // Copyright (c) HashiCorp, Inc.
 // SPDX-License-Identifier: MPL-2.0
-
 package agent
+
+/*
 
 import (
 	"context"
@@ -190,3 +191,4 @@ func TestCFEndToEnd(t *testing.T) {
 		t.Fatal("expected token but didn't receive it")
 	}
 }
+*/

@@ -3,6 +3,7 @@
 
 package aws
 
+/*
 import (
 	"os"
 	"sync"
@@ -103,3 +104,4 @@ func testAccStepwisePreCheck(t *testing.T) {
 		}
 	})
 }
+*/

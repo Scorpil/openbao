@@ -20,7 +20,6 @@ import (
 	"github.com/hashicorp/go-secure-stdlib/base62"
 	semver "github.com/hashicorp/go-version"
 	"github.com/openbao/openbao/helper/versions"
-	"github.com/openbao/openbao/version"
 	v4 "github.com/openbao/openbao/sdk/database/dbplugin"
 	v5 "github.com/openbao/openbao/sdk/database/dbplugin/v5"
 	"github.com/openbao/openbao/sdk/helper/consts"
@@ -28,6 +27,7 @@ import (
 	"github.com/openbao/openbao/sdk/helper/pluginutil"
 	"github.com/openbao/openbao/sdk/logical"
 	backendplugin "github.com/openbao/openbao/sdk/plugin"
+	"github.com/openbao/openbao/version"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

@@ -3,6 +3,7 @@
 
 package kerberos
 
+/*
 import (
 	"context"
 	"errors"
@@ -104,3 +105,4 @@ func read(key string, m map[string]interface{}) (string, error) {
 	}
 	return v, nil
 }
+*/

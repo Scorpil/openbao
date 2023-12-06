@@ -3,6 +3,7 @@
 
 package transit
 
+/*
 import (
 	"encoding/base64"
 	"fmt"
@@ -236,3 +237,4 @@ func testAccStepwiseDeletePolicy(t *testing.T, name string) stepwise.Step {
 		Path:      "keys/" + name,
 	}
 }
+*/

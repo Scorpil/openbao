@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
+	logicalKv "github.com/openbao/openbao-plugin-secrets-kv"
+	"github.com/openbao/openbao/api"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	logicalKv "github.com/openbao/openbao-plugin-secrets-kv"
-	"github.com/openbao/openbao/api"
 )
 
 const (

@@ -12,6 +12,7 @@ import (
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
+	"github.com/openbao/openbao/api"
 	bplugin "github.com/openbao/openbao/builtin/plugin"
 	"github.com/openbao/openbao/helper/benchhelpers"
 	"github.com/openbao/openbao/sdk/helper/consts"
@@ -22,7 +23,6 @@ import (
 	"github.com/openbao/openbao/sdk/plugin"
 	"github.com/openbao/openbao/sdk/plugin/mock"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 func getPluginClusterAndCore(t testing.TB, logger log.Logger) (*vault.TestCluster, *vault.TestClusterCore) {

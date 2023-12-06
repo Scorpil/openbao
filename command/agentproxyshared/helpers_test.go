@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/openbao/openbao/command/agentproxyshared/cache"
 	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/command/agentproxyshared/cache"
 	"github.com/openbao/openbao/sdk/helper/logging"
 )
 

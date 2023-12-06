@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/sdk/helper/consts"
 	"github.com/openbao/openbao/sdk/helper/pluginutil"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 func TestPlugin_lifecycle(t *testing.T) {

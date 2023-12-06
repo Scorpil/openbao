@@ -10,8 +10,8 @@ import (
 	"sync"
 
 	semver "github.com/hashicorp/go-version"
-	"github.com/openbao/openbao/version"
 	"github.com/openbao/openbao/sdk/helper/consts"
+	"github.com/openbao/openbao/version"
 )
 
 const (

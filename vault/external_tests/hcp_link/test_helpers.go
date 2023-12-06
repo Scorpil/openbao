@@ -9,13 +9,13 @@ import (
 	"time"
 
 	sdkResource "github.com/hashicorp/hcp-sdk-go/resource"
+	"github.com/openbao/openbao/api"
 	credUserpass "github.com/openbao/openbao/builtin/credential/userpass"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/internalshared/configutil"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
 	"github.com/openbao/openbao/vault/hcp_link"
-	"github.com/openbao/openbao/api"
 )
 
 type VaultHCPLinkInstances struct {

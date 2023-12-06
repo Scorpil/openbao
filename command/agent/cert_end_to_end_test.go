@@ -13,6 +13,7 @@ import (
 	"time"
 
 	hclog "github.com/hashicorp/go-hclog"
+	"github.com/openbao/openbao/api"
 	vaultcert "github.com/openbao/openbao/builtin/credential/cert"
 	"github.com/openbao/openbao/builtin/logical/pki"
 	"github.com/openbao/openbao/command/agentproxyshared/auth"
@@ -25,7 +26,6 @@ import (
 	"github.com/openbao/openbao/sdk/helper/logging"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 func TestCertEndToEnd(t *testing.T) {

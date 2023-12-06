@@ -15,8 +15,8 @@ import (
 
 	"github.com/openbao/openbao/command/server"
 
-	logicalDb "github.com/openbao/openbao/builtin/logical/database"
 	logicalKv "github.com/openbao/openbao-plugin-secrets-kv"
+	logicalDb "github.com/openbao/openbao/builtin/logical/database"
 
 	"github.com/openbao/openbao/builtin/plugin"
 
@@ -35,13 +35,13 @@ import (
 	"github.com/openbao/openbao/helper/namespace"
 	"github.com/openbao/openbao/helper/testhelpers/corehelpers"
 	"github.com/openbao/openbao/internalshared/configutil"
-	"github.com/openbao/openbao/version"
 	"github.com/openbao/openbao/sdk/helper/consts"
 	"github.com/openbao/openbao/sdk/helper/jsonutil"
 	"github.com/openbao/openbao/sdk/helper/logging"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/sdk/physical"
 	"github.com/openbao/openbao/sdk/physical/inmem"
+	"github.com/openbao/openbao/version"
 	"github.com/sasha-s/go-deadlock"
 )
 

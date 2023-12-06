@@ -3,6 +3,7 @@
 
 package cf
 
+/*
 import (
 	"context"
 	"errors"
@@ -84,3 +85,4 @@ func (p *cfMethod) NewCreds() chan struct{} {
 func (p *cfMethod) CredSuccess() {}
 
 func (p *cfMethod) Shutdown() {}
+*/

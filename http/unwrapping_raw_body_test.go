@@ -6,10 +6,10 @@ package http
 import (
 	"testing"
 
-	"github.com/openbao/openbao/sdk/logical"
-	"github.com/openbao/openbao/vault"
 	kv "github.com/openbao/openbao-plugin-secrets-kv"
 	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/sdk/logical"
+	"github.com/openbao/openbao/vault"
 )
 
 func TestUnwrapping_Raw_Body(t *testing.T) {

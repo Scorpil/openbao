@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/sdk/helper/testhelpers/schema"
 	"github.com/openbao/openbao/sdk/logical"
-	"github.com/openbao/openbao/api"
 	"github.com/stretchr/testify/require"
 
 	"github.com/openbao/openbao/builtin/credential/userpass"

@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/armon/go-metrics"
-	"github.com/openbao/openbao/helper/namespace"
 	logicalKv "github.com/openbao/openbao-plugin-secrets-kv"
+	"github.com/openbao/openbao/helper/namespace"
 	"github.com/openbao/openbao/sdk/logical"
 )
 

@@ -11,6 +11,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/openbao/openbao/api"
+	upAuth "github.com/openbao/openbao/api/auth/userpass"
 	"github.com/openbao/openbao/audit"
 	"github.com/openbao/openbao/builtin/credential/userpass"
 	"github.com/openbao/openbao/builtin/logical/totp"
@@ -19,8 +21,6 @@ import (
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
-	upAuth "github.com/openbao/openbao/api/auth/userpass"
 )
 
 func doTwoPhaseLogin(t *testing.T, client *api.Client, totpCodePath, methodID, username string) {

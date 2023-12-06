@@ -9,11 +9,11 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-secure-stdlib/strutil"
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/builtin/credential/userpass"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 // TestLoginMFA_Method_CRUD tests creating/reading/updating/deleting a method config for all the MFA providers

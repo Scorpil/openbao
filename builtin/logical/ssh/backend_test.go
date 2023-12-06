@@ -15,6 +15,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/mitchellh/mapstructure"
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/builtin/credential/userpass"
 	"github.com/openbao/openbao/helper/testhelpers/corehelpers"
 	logicaltest "github.com/openbao/openbao/helper/testhelpers/logical"
@@ -22,8 +24,6 @@ import (
 	"github.com/openbao/openbao/sdk/helper/docker"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/mitchellh/mapstructure"
-	"github.com/openbao/openbao/api"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/crypto/ssh"
 )

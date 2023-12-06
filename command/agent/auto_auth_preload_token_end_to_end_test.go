@@ -11,6 +11,7 @@ import (
 	"time"
 
 	hclog "github.com/hashicorp/go-hclog"
+	"github.com/openbao/openbao/api"
 	credAppRole "github.com/openbao/openbao/builtin/credential/approle"
 	"github.com/openbao/openbao/command/agentproxyshared/auth"
 	agentAppRole "github.com/openbao/openbao/command/agentproxyshared/auth/approle"
@@ -20,7 +21,6 @@ import (
 	"github.com/openbao/openbao/sdk/helper/logging"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 func TestTokenPreload_UsingAutoAuth(t *testing.T) {

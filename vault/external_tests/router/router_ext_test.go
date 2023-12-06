@@ -6,12 +6,12 @@ package router
 import (
 	"testing"
 
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/builtin/credential/userpass"
 	"github.com/openbao/openbao/builtin/logical/pki"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 func TestRouter_MountSubpath_Checks(t *testing.T) {

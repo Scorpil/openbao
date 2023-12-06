@@ -17,8 +17,8 @@ import (
 
 	"github.com/armon/go-metrics"
 	"github.com/hashicorp/go-hclog"
-	"github.com/openbao/openbao/command/agentproxyshared/sink"
 	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/command/agentproxyshared/sink"
 	"github.com/openbao/openbao/sdk/helper/consts"
 	"github.com/openbao/openbao/sdk/logical"
 )

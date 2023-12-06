@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/openbao/openbao/physical/raft"
 	"github.com/mitchellh/cli"
+	"github.com/openbao/openbao/physical/raft"
 	"github.com/openbao/openbao/sdk/physical"
 )
 

@@ -13,8 +13,8 @@ import (
 
 	"github.com/go-test/deep"
 	sockaddr "github.com/hashicorp/go-sockaddr"
-	logicaltest "github.com/openbao/openbao/helper/testhelpers/logical"
 	"github.com/mitchellh/mapstructure"
+	logicaltest "github.com/openbao/openbao/helper/testhelpers/logical"
 	"github.com/openbao/openbao/sdk/helper/policyutil"
 	"github.com/openbao/openbao/sdk/helper/tokenutil"
 	"github.com/openbao/openbao/sdk/logical"

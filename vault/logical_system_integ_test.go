@@ -10,6 +10,7 @@ import (
 
 	"github.com/go-test/deep"
 	"github.com/hashicorp/go-hclog"
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/helper/testhelpers/corehelpers"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/helper/logging"
@@ -17,7 +18,6 @@ import (
 	"github.com/openbao/openbao/sdk/physical/inmem"
 	"github.com/openbao/openbao/vault"
 	"github.com/openbao/openbao/version"
-	"github.com/openbao/openbao/api"
 )
 
 func TestSystemBackend_InternalUIResultantACL(t *testing.T) {

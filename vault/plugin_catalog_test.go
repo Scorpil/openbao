@@ -15,10 +15,10 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/builtin/credential/userpass"
 	"github.com/openbao/openbao/helper/versions"
 	"github.com/openbao/openbao/plugins/database/postgresql"
-	"github.com/openbao/openbao/api"
 	v5 "github.com/openbao/openbao/sdk/database/dbplugin/v5"
 	"github.com/openbao/openbao/sdk/helper/consts"
 	"github.com/openbao/openbao/sdk/helper/pluginutil"

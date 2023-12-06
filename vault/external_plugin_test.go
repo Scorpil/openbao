@@ -18,13 +18,13 @@ import (
 	"github.com/openbao/openbao/helper/namespace"
 	"github.com/openbao/openbao/helper/testhelpers/corehelpers"
 	"github.com/openbao/openbao/helper/testhelpers/pluginhelpers"
-	"github.com/openbao/openbao/version"
 	"github.com/openbao/openbao/sdk/framework"
 	"github.com/openbao/openbao/sdk/helper/consts"
 	"github.com/openbao/openbao/sdk/helper/pluginutil"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/sdk/plugin"
 	"github.com/openbao/openbao/sdk/plugin/mock"
+	"github.com/openbao/openbao/version"
 )
 
 const vaultTestingMockPluginEnv = "VAULT_TESTING_MOCK_PLUGIN"

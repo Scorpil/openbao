@@ -3,6 +3,7 @@
 
 package agent
 
+/*
 import (
 	"context"
 	"io/ioutil"
@@ -226,3 +227,4 @@ func unsetAliCloudEnvCreds() error {
 	}
 	return os.Unsetenv(providers.EnvVarAccessKeyStsToken)
 }
+*/

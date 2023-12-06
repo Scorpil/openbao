@@ -23,6 +23,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/builtin/logical/pki"
 	logicaltest "github.com/openbao/openbao/helper/testhelpers/logical"
 	vaulthttp "github.com/openbao/openbao/http"
@@ -31,7 +32,6 @@ import (
 	"github.com/openbao/openbao/sdk/helper/keysutil"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 
 	uuid "github.com/hashicorp/go-uuid"
 	"github.com/mitchellh/mapstructure"

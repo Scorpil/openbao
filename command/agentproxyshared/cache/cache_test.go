@@ -17,6 +17,8 @@ import (
 
 	"github.com/go-test/deep"
 	"github.com/hashicorp/go-hclog"
+	kv "github.com/openbao/openbao-plugin-secrets-kv"
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/command/agentproxyshared/cache/cachememdb"
 	"github.com/openbao/openbao/command/agentproxyshared/sink/mock"
 	"github.com/openbao/openbao/helper/namespace"
@@ -25,8 +27,6 @@ import (
 	"github.com/openbao/openbao/sdk/helper/logging"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	kv "github.com/openbao/openbao-plugin-secrets-kv"
-	"github.com/openbao/openbao/api"
 )
 
 func tokenRevocationValidation(t *testing.T, sampleSpace map[string]string, expected map[string]string, leaseCache *LeaseCache) {

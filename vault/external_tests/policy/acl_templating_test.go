@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/openbao/openbao/api"
 	credUserpass "github.com/openbao/openbao/builtin/credential/userpass"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 func TestPolicyTemplating(t *testing.T) {

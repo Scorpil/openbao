@@ -15,6 +15,8 @@ import (
 	"github.com/openbao/openbao/audit"
 	auditFile "github.com/openbao/openbao/builtin/audit/file"
 
+	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/api/auth/approle"
 	"github.com/openbao/openbao/builtin/logical/database"
 	"github.com/openbao/openbao/helper/namespace"
 	"github.com/openbao/openbao/helper/testhelpers/consul"
@@ -25,8 +27,6 @@ import (
 	"github.com/openbao/openbao/sdk/helper/consts"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
-	"github.com/openbao/openbao/api/auth/approle"
 
 	_ "github.com/jackc/pgx/v4/stdlib"
 )

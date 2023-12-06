@@ -32,6 +32,7 @@ import (
 	"golang.org/x/net/http2"
 
 	"github.com/hashicorp/go-cleanhttp"
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/builtin/logical/pki/dnstest"
 	"github.com/openbao/openbao/helper/constants"
 	"github.com/openbao/openbao/helper/testhelpers"
@@ -39,7 +40,6 @@ import (
 	"github.com/openbao/openbao/sdk/helper/jsonutil"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 // TestAcmeBasicWorkflow a test that will validate a basic ACME workflow using the Golang ACME client.

@@ -9,12 +9,12 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/openbao/openbao/api"
 	"github.com/openbao/openbao/builtin/credential/okta"
 	"github.com/openbao/openbao/builtin/credential/userpass"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 var (

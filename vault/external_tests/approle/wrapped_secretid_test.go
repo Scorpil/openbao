@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	log "github.com/hashicorp/go-hclog"
+	"github.com/openbao/openbao/api"
 	credAppRole "github.com/openbao/openbao/builtin/credential/approle"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 	"github.com/stretchr/testify/require"
 )
 

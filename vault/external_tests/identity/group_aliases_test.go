@@ -6,10 +6,10 @@ package identity
 import (
 	"testing"
 
+	"github.com/openbao/openbao/api"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 
 	credLdap "github.com/openbao/openbao/builtin/credential/ldap"
 )

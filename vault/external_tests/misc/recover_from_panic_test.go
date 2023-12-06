@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/hashicorp/go-hclog"
+	"github.com/openbao/openbao/api"
 	vaulthttp "github.com/openbao/openbao/http"
 	"github.com/openbao/openbao/sdk/logical"
 	"github.com/openbao/openbao/vault"
-	"github.com/openbao/openbao/api"
 )
 
 // Tests the regression in

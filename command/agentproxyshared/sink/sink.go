@@ -14,8 +14,8 @@ import (
 	"time"
 
 	hclog "github.com/hashicorp/go-hclog"
-	"github.com/openbao/openbao/helper/dhutil"
 	"github.com/openbao/openbao/api"
+	"github.com/openbao/openbao/helper/dhutil"
 	"github.com/openbao/openbao/sdk/helper/jsonutil"
 )
 

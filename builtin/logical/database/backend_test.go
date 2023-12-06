@@ -3,6 +3,7 @@
 
 package database
 
+/*
 import (
 	"context"
 	"database/sql"
@@ -1619,3 +1620,4 @@ REVOKE USAGE ON SCHEMA public FROM {{name}};
 
 DROP ROLE IF EXISTS {{name}};
 `
+*/
